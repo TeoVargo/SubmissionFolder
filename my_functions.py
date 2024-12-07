@@ -201,8 +201,9 @@ def plot_piano_roll(notes: pd.DataFrame, count: Optional[int] = None, heading: O
   plt.ylabel('Pitch')
   _ = plt.title(title)
 
-def plot_distributions(notes: pd.DataFrame, drop_percentile=2.5):
+def plot_distributions(notes: pd.DataFrame, title='', drop_percentile=2.5):
   plt.figure(figsize=[15, 5])
+  plt.title(title)
   plt.subplot(1, 3, 1)
   sns.histplot(notes, x="pitch", bins=20)
 

@@ -1,18 +1,6 @@
 /.conda
-/MixedModel-Song-130_seq-30-Dickie Wells-I Got Rhythm.midi
-/MixedModel-Song-222_seq-30-John Coltrane-Giant Steps.midi
-/MixedModel-Song-299_seq-30-Michael Brecker-Cabin Fever.midi
-/MixedModel-Song-3_seq-30-Art Pepper-Desafinado.midi
-/MixedModel-Song-41_seq-30-Branford Marsalis-The Nearness of You.midi
-/MixedModel-Song-42_seq-30-Branford Marsalis-Three Little Words.midi
-/MixedModel-Song-50_seq-30-Cannonball Adderley-This Here.midi
-/MixedModel-Song-74_seq-30-Chet Baker-There Will Never Be Another You.midi
-/MixedModel-Song-75_seq-30-Chet Baker-There Will Never Be Another You.midi
-/MixedModel-Song-89_seq-30-Clifford Brown-George's Dilemma.midi
+/*.midi
 /__pycache__
-/history.npy
-/history_mixed.csv
-/history_mixed.npy
-/snippets.py
 /training_checkpoints
 /z.npy.npz
+.DS_Store
