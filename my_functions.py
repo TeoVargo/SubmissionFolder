@@ -203,11 +203,12 @@ def plot_piano_roll(notes: pd.DataFrame, count: Optional[int] = None, heading: O
 
 def plot_distributions(notes: pd.DataFrame, title='', drop_percentile=2.5):
   plt.figure(figsize=[15, 5])
-  plt.title(title)
   plt.subplot(1, 3, 1)
   sns.histplot(notes, x="pitch", bins=20)
 
   plt.subplot(1, 3, 2)
+  plt.title(title)
+
   max_step = np.percentile(notes['step'], 100 - drop_percentile)
   sns.histplot(notes, x="step", bins=np.linspace(0, max_step, 21))
   
